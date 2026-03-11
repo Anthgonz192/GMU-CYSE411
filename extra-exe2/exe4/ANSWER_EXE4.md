@@ -178,7 +178,7 @@ This removes the password condition entirely.
 ## Example Payload
 
 ```
-' UNION SELECT username,password FROM users --
+' UNION SELECT id,username,password FROM users --
 ```
 
 Injected in the password field.
